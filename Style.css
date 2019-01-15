@@ -72,30 +72,30 @@ span {
   height:2.5vw;
   grid-column-start: 12;
   grid-row-start: 3;
-  background-color: blue;
+  background-color: #214db8;
 }
 .item2 {
-  width:2.3vw;
-  height: 2.3vw;
+  width:2.5vw;
+  height: 2.5vw;
   grid-column-start: 12;
   grid-row-start: 1;
-  background-color: red;
+  background-color: #a82c2a;
   font-size: 12px;
 }
 .item3 {
-  width:2.3vw;
-  height: 2.3vw;
+  width:2.5vw;
+  height: 2.5vw;
   grid-column-start: 12;
   grid-row-start: 2;
-  background-color: yellow;
+  background-color: #e9b636;
   font-size: 12px;
 }
 .item4 {
-  width:2.3vw;
-  height: 2.3vw;
+  width:2.5vw;
+  height: 2.5vw;
   grid-column-start: 6;
   grid-row-start: 11;
-  background-color: red;
+  background-color: #a82c2a;
   font-size: 12px;
 }
 .item5 {
@@ -111,22 +111,22 @@ span {
   height: 2.5vw;
   grid-column-start: 6;
   grid-row-start: 5;
-  background-color: yellow;
+  background-color: #e9b636;
   font-size: 12px;
 }
 .item7 {
-  width:2.5vw;
+  width:2.vw;
   height: 2.5vw;
   grid-column-start: 6;
   grid-row-start: 6;
-  background-color: blue;
+  background-color: #214db8;
 }
 .item8 {
-  width:2.3vw;
-  height: 2.3vw;
+  width:2.5vw;
+  height: 2.5vw;
   grid-column-start: 2;
   grid-row-start: 10;
-  background-color: red;
+  background-color: #a82c2a;
 }
 .item9 {
   width:2.5vw;
@@ -140,21 +140,21 @@ span {
   height:2.5vw;
   grid-column-start: 12;
   grid-row-start: 7;
-  background-color: yellow;
+  background-color: #e9b636;
 }
 .item11 {
   width:2.5vw;
   height:2.5vw;
   grid-column-start: 12;
   grid-row-start: 1;
-  background-color: blue;
+  background-color: #214db8;
 }
 .item12 {
   width:2.5vw;
   height:2.5vw;
   grid-column-start: 12;
   grid-row-start: 2;
-  background-color: red;
+  background-color: #a82c2a;
 }
 .item13 {
   width:2.5vw;
@@ -168,14 +168,14 @@ span {
   height:2.5vw;
   grid-column-start: 2;
   grid-row-start: 5;
-  background-color: yellow;
+  background-color:#e9b636;
 }
 .item15 {
   width:2.5vw;
   height:2.5vw;
   grid-column-start: 2;
   grid-row-start: 6;
-  background-color: blue;
+  background-color: #214db8;
 }
 .item16 {
   width:2.5vw;
@@ -185,10 +185,6 @@ span {
   background-color: black;
 }
 
-
-
 html {
   background-color: #a8a5ae;
 }
-
-color="#e1ded7"
