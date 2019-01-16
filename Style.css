@@ -1,7 +1,6 @@
 .grid-container {
   display: grid;
   align-self: center;
-  height: auto;
   grid-template-columns: 1fr 1fr 1fr;
   gird-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 0px;
@@ -73,6 +72,7 @@ span {
   grid-column-start: 12;
   grid-row-start: 3;
   background-color: #214db8;
+  animation: blink 5s ease-in both 1s infinite;
 }
 .item2 {
   width:2.5vw;
@@ -81,6 +81,7 @@ span {
   grid-row-start: 1;
   background-color: #a82c2a;
   font-size: 12px;
+  animation: blink 10s ease-in both 1s infinite;
 }
 .item3 {
   width:2.5vw;
@@ -89,6 +90,7 @@ span {
   grid-row-start: 2;
   background-color: #e9b636;
   font-size: 12px;
+  animation: blink 21s ease-in both infinite;
 }
 .item4 {
   width:2.5vw;
@@ -97,6 +99,7 @@ span {
   grid-row-start: 11;
   background-color: #a82c2a;
   font-size: 12px;
+  animation: blink 7s ease-in both infinite;
 }
 .item5 {
   width:2.5vw;
@@ -105,6 +108,7 @@ span {
   grid-row-start: 8;
   background-color: black;
   font-size: 12px;
+  animation: blink 6s ease-in both infinite;
 }
 .item6 {
   width:2.5vw;
@@ -113,6 +117,7 @@ span {
   grid-row-start: 5;
   background-color: #e9b636;
   font-size: 12px;
+  animation: blink 8s ease-in both infinite;
 }
 .item7 {
   width:2.vw;
@@ -120,6 +125,7 @@ span {
   grid-column-start: 6;
   grid-row-start: 6;
   background-color: #214db8;
+  animation: blink 9s ease-in both infinite;
 }
 .item8 {
   width:2.5vw;
@@ -127,6 +133,7 @@ span {
   grid-column-start: 2;
   grid-row-start: 10;
   background-color: #a82c2a;
+  animation: blink 12s ease-in both infinite;
 }
 .item9 {
   width:2.5vw;
@@ -134,6 +141,7 @@ span {
   grid-column-start: 6;
   grid-row-start: 1;
   background-color: black;
+  animation: blink 11s ease-in both infinite;
 }
 .item10 {
   width:2.5vw;
@@ -141,6 +149,7 @@ span {
   grid-column-start: 12;
   grid-row-start: 7;
   background-color: #e9b636;
+  animation: blink 6s ease-in both infinite;
 }
 .item11 {
   width:2.5vw;
@@ -148,6 +157,7 @@ span {
   grid-column-start: 12;
   grid-row-start: 1;
   background-color: #214db8;
+  animation: blink 3s ease-in both .5s infinite;
 }
 .item12 {
   width:2.5vw;
@@ -155,6 +165,7 @@ span {
   grid-column-start: 12;
   grid-row-start: 2;
   background-color: #a82c2a;
+  animation: blink 10s ease-in both infinite;
 }
 .item13 {
   width:2.5vw;
@@ -162,6 +173,7 @@ span {
   grid-column-start: 12;
   grid-row-start: 7;
   background-color: black;
+  animation: blink 8s ease-in both infinite;
 }
 .item14 {
   width:2.5vw;
@@ -169,6 +181,7 @@ span {
   grid-column-start: 2;
   grid-row-start: 5;
   background-color:#e9b636;
+  animation: blink 4s ease-in both infinite;
 }
 .item15 {
   width:2.5vw;
@@ -176,6 +189,7 @@ span {
   grid-column-start: 2;
   grid-row-start: 6;
   background-color: #214db8;
+  animation: blink 8s ease-in both infinite;
 }
 .item16 {
   width:2.5vw;
@@ -183,8 +197,45 @@ span {
   grid-column-start: 2;
   grid-row-start: 1;
   background-color: black;
+  animation: blink 3s ease-in both infinite;
 }
 
-html {
+
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-12px) scale(0.8,1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(0.8,1);
+  }
+}
+
+
+@keyframes blink {
+  0% {
+	Opacity: 1;
+	}
+  25% {
+	Opacity: 0;
+	}
+  50% {
+	Opacity: 1;
+	}
+  75% {
+	Opacity: 0;
+	}
+  100% {
+	Opacity: 1;
+	}
+}
+
+
+
+body {
+  max-height: : 400px;
   background-color: #a8a5ae;
+
 }
