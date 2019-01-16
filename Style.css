@@ -12,16 +12,16 @@
 .grid-item {
   display: grid;
   align-self: center;
-  margin: -.5px;
+  margin: 0px;
   padding: 0px;
   border: 0px;
-  height: 24vw;
+  height: 23vw;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 0;
   background-color: #e1ded7;
   text-align: center;
-  font-size: 12px;
+  font-size: 0px;
   color: #e1ded7;
 }
 
@@ -61,7 +61,10 @@ span {
 
 .footing {
   display: block;
-  transform:translateY(10em) translateX(50em);
+  transform:translateY(8em) translateX(50em);
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-size: 0.5vw;
   font-family:sans-serif;
 }
@@ -200,20 +203,6 @@ span {
   animation: blink 3s ease-in both infinite;
 }
 
-
-
-@keyframes fade-slide-down {
-  0% {
-    opacity: 0;
-    transform: translateY(-12px) scale(0.8,1);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px) scale(0.8,1);
-  }
-}
-
-
 @keyframes blink {
   0% {
 	Opacity: 1;
@@ -232,10 +221,9 @@ span {
 	}
 }
 
-
-
-body {
-  max-height: : 400px;
+html {
+  bottom:0;
+  overflow-x: hidden;
   background-color: #a8a5ae;
 
 }
